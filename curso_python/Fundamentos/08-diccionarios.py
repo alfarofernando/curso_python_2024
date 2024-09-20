@@ -70,4 +70,6 @@ print(miNuevoDiccionario1)
 # o  podemos crear una copia de otro diccionario tomando solo sus claves y asignarle a todas las claves valores por parametro
 # nuevaVariable = dict.fromkeys(diccionarioACopiar , (valores))
 miNuevoDiccionario2 = dict.fromkeys(miDiccionario, ("ayer", "hoy"))
-print(miNuevoDiccionario2)  # devuelve las claves
+print(
+    miNuevoDiccionario2
+)  # devuelve copia de claves de miDiccionario pero con los valores "ayer" y "hoy" asignado a ellas.
