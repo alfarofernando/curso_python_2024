@@ -76,7 +76,7 @@ class Gato:
         return self.__nombre
 
 
-gatito = Gato("michi")  # instanciamos objeto y le damos un nombre por parametro
+gatito = Gato("michi", 6)  # instanciamos objeto y le damos un nombre por parametro
 print(
     gatito.get_nombre()
 )  # accedemos al metodo get_nombre para acceder a dicho parametro
